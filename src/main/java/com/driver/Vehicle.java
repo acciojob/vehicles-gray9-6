@@ -8,10 +8,19 @@ public class Vehicle {
 
 
     // Getters
+
+
+    public String getName() {
+        return name;
+    }
+
+    public int getCurrentSpeed() {
+        return currentSpeed;
+    }
+
     public int getCurrentDirection() {
         return currentDirection;
     }
-
 
     public Vehicle(String name) {
         this.name = name;
